@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.banner img {
+  width: 1000px;
+  max-width: 3000px;
+  height: 100%;
+  display: block;
+}
+.avatar {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px black;
+  margin-top: -210px;
+}
+.username {
+  margin-top: 15px;
+  font-size: 50px;
+  color: whitesmoke;
+  font-family: "press Start 2P";
+}
+#rtxt {
+  margin-top: -20px;
+}
+
+
